@@ -1,0 +1,12 @@
+/* .menu__container__title{
+
+} */
+.container__menu-title h1{
+  margin: 20px 0;
+  font-size:150px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  text-transform: uppercase;
+  justify-content: center;
+}
