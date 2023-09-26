@@ -1,11 +1,14 @@
-.container__articles{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
 
 header{
   margin:15px 0;
   display: flex;
+  justify-content: center;
+}
+.container__menu{
+  text-align: center;
+}
+.container__articles{
+  display: flex;
+  flex-direction: row;
   justify-content: center;
 }
