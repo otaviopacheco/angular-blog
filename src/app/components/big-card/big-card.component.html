@@ -4,9 +4,9 @@
     <img src={{photoCover}} alt="" height="200px">
   </div>
   <div class="big-card__title">
-    <h3><a href="#">{{cardTitle}}</a></h3>
+    <h3><a [routerLink]="['content',Id]">{{cardTitle}}</a></h3>
   </div>
   <div class="big-card__description">
-    <p>{{cardDescription}}</p>
+    <p><a [routerLink]="['content',Id]">{{cardDescription}}</a></p>
   </div>
 </div>

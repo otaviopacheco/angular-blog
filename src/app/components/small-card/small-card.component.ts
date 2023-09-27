@@ -12,6 +12,8 @@ export class SmallCardComponent implements OnInit {
   CardCover:string="sadasdasda"
   @Input()
   CardTitle:string="sadasdas"
+  @Input()
+  Id:string="0"
   constructor(){}
   ngOnInit(): void {}
 

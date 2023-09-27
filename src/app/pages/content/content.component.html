@@ -1,17 +1,19 @@
-<a routerLink=""><< VOLTAR</a>
-<div class="content__container">
+<div class="container__content">
 
- <div class="content__cover">
-  <img src={{newsPhoto}} alt="">
+  <div class="content__cover">
 
- </div>
- <div class="content__title">
-  <h1>{{newsTitle}}</h1>
-  <hr>
- </div>
- <div class="content__description">
-  <p>{{newsDescription}}</p>
- </div>
+    <img src="{{ photoCover }}" alt="" srcset="">
+  </div>
+  <div class="total__content">
+  <div class="content__title">
+    <h1>{{ contentTitle }}</h1>
+    <hr />
+  </div>
+  <div class="content__description">
+    <p>
+      {{ contentDescription }}
+    </p>
+  </div>
 </div>
-
-<!-- https://static.miraheze.org/mylittleponywiki/8/81/S9E26_Lyra_and_Bon_Bon_together_forever.png -->
+  <a class="volts" [routerLink]="['']"> << VOLTAR </a>
+</div>

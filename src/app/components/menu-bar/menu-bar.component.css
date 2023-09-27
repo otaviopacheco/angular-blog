@@ -1,14 +1,25 @@
+*{
+  background-color: #c2c7d6;
+}
 .container__menu-bar {
   margin-top:15px;
 }
+a{
+  font-family: 'Dancing Script', cursive;
+  color: #E7dd6B;
+  font-weight: 500;
+}
+.container__menu-bar a:hover{
+  color:#EBFD89;
+ }
 .container__menu-bar ul{
   display: flex;
   flex-direction: row;
-  
-
 }
 .container__menu-bar ul li{
   margin-right: 25px;
   list-style: none;
+
 }
+
 

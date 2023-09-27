@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script:wght@500&family=Roboto:wght@100;300;700&display=swap');
 *{
   margin:0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #111111;
+  background-color: #c2c7d6;
   color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
